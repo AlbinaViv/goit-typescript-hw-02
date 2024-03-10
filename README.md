@@ -9,7 +9,7 @@
 Є наступний JavaScript код:
 
 ```ts
-let age = 50;
+let age: number = 50;
 let name = 'Max';
 let toggle = true;
 let empty = null;
@@ -22,7 +22,7 @@ let callback = (a) => { return 100 + a };
 ### Завдання 2
 JavaScript змінна може зберігати значення будь-якого типу:
 ```ts
-let anything = -20;
+let anything:any = -20;
 anything = 'Text';
 anything = {};
 ```

@@ -3,7 +3,6 @@
   Використовуйте generics, щоб вказати, що ці об'єкти можуть бути будь-якого типу.
 */
 function merge(objA, objB) {
-    return Object.assign(objA, objB);
+    return { ...objA, ...objB };
 }
-export {};
 //# sourceMappingURL=3.js.map
