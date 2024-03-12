@@ -3,6 +3,14 @@
   Ваше завдання – використовувати Pick та generics для вказівки, що поля цих об'єктів належать AllType.
   Функція compare повинна повертати AllType.
 */
+// function compare<T extends AllType>(top: T, bottom: T): AllTypeInfo["compare"] {
+//   return {
+//     name: top.name,
+//     color: top.color,
+//     position: bottom.position,
+//     weight: bottom.weight,
+//   };
+// }
 function compare(top, bottom) {
     return {
         name: top.name,
